@@ -1,0 +1,442 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+}
+:root
+{
+    --primary-color: #eb5757;
+    --secondary-color: #222;
+    --light-color: #f9f9f9;
+    --dark-color: #333;
+}
+header
+{
+    width: 100vw;
+    height: 150px;
+    position: fixed;
+    background-color: var(--primary-color);
+}
+header .COVID
+{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+header .COVID button{
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    border:none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+header .COVID p{
+    font-size: 18px;
+}
+header .MENU{
+width: 100%;
+height: 75px;
+padding: 0 170px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: var(--light-color);
+}
+header .MENU div
+{
+width: 600px;
+height: 45px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header .MENU div a
+{
+    height: 35px;
+    width: 75px;
+    padding-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-color);
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+header .MENU div a:hover
+{
+    background-color: var(--secondary-color);
+}
+header .MENU div button
+{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    background-image: url("carrito.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    color: var(--dark-color);
+    background-color: var(--dark-color);
+}
+header .MENU div button span
+{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    text-align: center;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+header .icono
+{
+   background-image: url(acme1.png);
+}
+main{
+    padding-top: 150px;
+}
+.calis
+{
+    background-color: rgb(0, 0, 0);
+}
+main .cajaprueba
+{
+    height: 500px;
+    background-image: url("montañas.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main .cajaprueba
+{
+    color: white;
+    padding-left: 21vw;
+    padding-top: 10vh;
+    font-size: 20px;
+    
+}
+.cajaprueba1
+{
+background-color: transparent;
+color: white;
+padding-top: 4px;
+border-radius: 5px;
+border-color: white;
+font-size: 15px;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width: 10vw;
+height: 5vh;
+}
+main .cajaprueba .cajaprueba1:hover
+{
+    color: black;
+    background-color: var(--light-color);
+}
+main .contenedor div
+{
+    display: inline-block;
+    width: 320px;
+    height: 250px;
+}
+.contenedor
+{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    justify-content: space-between;
+
+}
+.contenedor article
+{
+    padding: 30px;
+}
+.contenedor .uno
+{
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    width: 300px;
+    height: 300px;
+font-size: 20px;
+    border-radius: 5px;
+}
+.uno_1
+{
+    padding-top: 15vh;
+    padding-left: 2vw;
+    font-size: 30px;
+}
+.dos_1
+{
+    
+    padding-left: 5vw;
+    
+}
+.text3
+{
+    padding-top: 15vh;
+    padding-left: 6vw;
+    font-size: 35px;
+}
+.text4
+{
+    padding-top: 15vh;
+    padding-left: 6vw;
+    font-size: 37px;
+    
+}
+.contenedor .dos
+{
+    background-color: var(--secondary-color);
+    width:300px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+
+color: var(--light-color);}
+.contenedor .tres
+{
+    background-color: var(--secondary-color);
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    color: var(--light-color);
+}
+main .cajaprueba2
+{
+    height: 500px;
+    background-image: url("bosque.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cajaprueba2
+{
+color: white;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-left: 65vw;
+padding-top: 13vh;
+}
+main .boton2
+{
+  color: var(--secondary-color);
+  background-color: var(--light-color);
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: var(--light-color);
+  width: 10vw;
+  height: 6vh;
+  text-align: center;
+}
+.cajaprueba2 .boton2:hover
+{
+background-color: var(--primary-color);
+color: var(--light-color);
+border-color: var(--primary-color);
+}
+
+.contenedor3
+{
+    background-color: var(--secondary-color);
+   width: 750px;
+   height: 500px;
+   padding-right: 0vh;
+   margin-left: 10vw;
+   z-index: -1;
+   color: var(--light-color);
+   padding-left: 20vw;
+}
+
+.contenedor4
+{
+    display: inline-block;
+    width: 100vw;
+    height: 25vh;
+    background-color: var(--dark-color);
+    color: white;
+    top: 20px;
+    position: relative;
+}
+.mover
+{
+    position: relative;
+    bottom: 20px;
+    color: white;
+    text-align: center;
+}
+.mover2
+{
+    padding-left: 15vw;
+    padding-top: 10vh;
+}
+.apoyo1
+{
+    background-color: var(--dark-color);
+    background-image: url(marte.jpg);
+    width: 300px;
+    height: 300px;
+    padding-top: 20vh;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 8vh;
+    text-align: center;
+    border-radius: 5px;
+}
+.apoyo2
+{
+    background-color: var(--dark-color);
+    background-image: url(pluton.jpg);
+    width: 300px;
+    height: 300px;
+    padding-top: 20vh;
+    font-size: 20px;
+    color: var(--light-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+}
+.apoyo3
+{
+    background-color: var(--dark-color);
+    background-image: url(saturno.jpg);
+    width: 300px;
+    height: 300px;
+    padding-top: 20vh;
+    font-size: 20px;
+    color: var(--light-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-right: 8vh;
+    padding-top: 10px;
+    padding-left: 15vw;
+    border-radius: 5px;
+}
+.texto9
+{
+    color: var(--primary-color);
+}
+.contenedor1
+{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+main .botonn2
+{
+border-radius: 8px;
+background-color: var(--primary-color);
+color: var(--light-color);
+border-color: var(--primary-color);
+width: 7vw;
+height: 5vh;
+margin-left: 8.5vw;
+margin-top: 3vh;
+}
+
+.contenedor1 .botonn2:hover
+{
+background-color: var(--secondary-color);
+color: var(--light-color);
+border-color: var(--secondary-color);
+}
+.botonn3:hover
+{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border-color: var(--primary-color);
+}
+main .botonn3
+{
+    background-color: var(--secondary-color);
+color: var(--light-color);
+border-color: var(--secondary-color);
+border-radius: 5px;
+font-size: 17px;
+margin-left: 45vw;
+margin-bottom: 50px;
+padding-bottom: 7px;
+}
+.botonn4
+{
+background-color: var(--primary-color);
+color: var(--light-color);
+padding-top: 4px;
+padding-left: 18px;
+font-size: 15px;
+text-align: center;
+border-radius: 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-color: var(--primary-color);
+
+}
+.caja3
+{
+    width: 350px;
+    height: 350px;
+    background-image: url(saturno.jpg);
+    z-index: 0;
+    margin-left: -38vw;
+    margin-top: -45vh;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.text
+{
+    margin-left: 8vw;
+    margin-top: 10vh;
+    color: var(--light-color);
+    text-align: center;
+
+}
+.texto2
+{
+padding-left: 5vw;
+padding-right: 8vw;
+display: flex;
+justify-content: space-between;
+
+}
+.texto3
+{
+padding-top: 30px;
+font-size: 20px;
+}
+.texto6
+{
+    text-align: center;
+    padding-top: 3vh;
+}
+.h_2
+{
+    font-size: 40px;
+    margin-top: 8vh;
+    margin-left: 6vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
