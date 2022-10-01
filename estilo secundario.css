@@ -104,7 +104,7 @@ header .MENU div button span
 }
 header .icono
 {
-   background-image: url(acme1.png);
+   background-image: url("acme1.png");
 }
 main{
     padding-top: 150px;
